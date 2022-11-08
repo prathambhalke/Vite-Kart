@@ -1,0 +1,48 @@
+.Nav-Container {
+    width: 100vw;
+}
+
+.Nav-Container ul {
+    display: flex;
+    justify-content: end;
+}
+
+.Nav-Container ul li {
+    list-style: none;
+    margin: 5px;
+    margin-right: 8px;
+    font-weight: 300;
+
+}
+
+.fa-solid {
+    color: #6739B7;
+}
+
+.link {
+    text-decoration: none;
+    color: #6739B7;
+}
+
+.link:hover {
+    border-bottom: 1px double #6739B7;
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* Extra small devices (phones, 466 and down) */
+@media only screen and (max-width: 477px) {
+    .mobile-menu {
+        display: inline-block;
+        position: absolute;
+        right: 12%;
+        top: 3%;
+    }
+
+    .Nav-Container ul {
+        display: none;
+    }
+}
