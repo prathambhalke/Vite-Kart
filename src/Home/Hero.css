@@ -1,0 +1,38 @@
+.Hero-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 45px;
+   flex-wrap: wrap;
+width: 100%;
+}
+
+.Hero-Container{
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 50vw;
+}
+
+.Brand{
+    border: 8px double #6739B7;
+    width: 13rem;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+.Hero_btn{
+    background-color: #6739B7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.Logos{
+    width: 100px;
+}
+.Home{
+    font-size: 87px;
+}

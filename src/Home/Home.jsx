@@ -1,9 +1,10 @@
 import React from 'react'
-
+import HeroSection from "../Home/HeroSection"
 function Home() {
+  const data = "Kart"
   return (
     <div>
-      <h1>Home</h1>
+      <HeroSection data={data}/>
     </div>
   )
 }

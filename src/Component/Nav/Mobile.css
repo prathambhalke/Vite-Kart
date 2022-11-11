@@ -10,6 +10,7 @@
     justify-content: center;
     height: 90vh;
     position: relative;
+    flex-direction: column;
 }
 
 .Mob-Container ul li {
@@ -17,4 +18,13 @@
     list-style: none;
     font-size: 25px;
     font-weight: 900;
+}
+.Icon-container{
+margin: 0px 0px 23px 80px ;
+}
+
+.Icon{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
 }

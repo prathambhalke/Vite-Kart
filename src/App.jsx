@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Products from "./Products/Products";
@@ -9,7 +9,7 @@ import Cart from "./Cart/Cart";
 import SingleProduct from "./SingleProduct/SingleProduct";
 import Error from "./ErrorPage/Error";
 import Header from "./Component/Header/Header";
-import MobileMenu from "./Component/MobileMenu"
+import MobileMenu from "./Component/Nav/MobileMenu"
 
 function App() {
   return (
