@@ -1,0 +1,28 @@
+.Trusted-main {
+    text-align: center;
+    height: 30vh;
+
+}
+
+.Trusted-main p {
+    margin-top: 34px;
+}
+
+.Companies-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Com-icon {
+    margin-left: 18px;
+    margin-top: 23px;
+    font-size: 23px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.Com-icon:hover {
+    color: #6739B7;
+}
