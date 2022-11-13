@@ -10,6 +10,7 @@ import SingleProduct from "./SingleProduct/SingleProduct";
 import Error from "./ErrorPage/Error";
 import Header from "./Component/Header/Header";
 import MobileMenu from "./Component/Nav/MobileMenu"
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Error" element={<Error />} />
           <Route path="/MobileMenu" element={<MobileMenu />} />
 </Routes>
+<Footer />
      
     </div>
   );

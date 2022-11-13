@@ -44,7 +44,7 @@ padding: 0.5em;
 @media only screen and (max-width: 477px) {
     .Ser-Main-Container {
         margin-top: 32px;
-        height: 70vh;
+        height: 90vh;
     }
     .sec {
         height: 25vh;

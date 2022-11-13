@@ -39,7 +39,7 @@ outline-width: 1px;
     font-size: 15px;
     border: none;
     cursor: pointer;
-    
+    margin-bottom: 64px;
 }
 .Con-Btn:hover{
     background-color: white;

@@ -1,0 +1,80 @@
+.Footer{
+    background-color: #13294B;
+    position: relative;
+    bottom: 0;
+    height: 49vh;
+}
+.Short-Contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #ece1ff; */
+    background-color: aliceblue;
+    width: 50vw;
+    margin: auto;
+    margin-top: 23px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 4em;
+    padding: 23px;
+    height: 19vh;
+    flex-wrap: wrap;
+}
+
+.short-con-Btn{
+    background-color: #6739B7;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width:10em;
+    padding: 9px;
+    margin-top: 8px;
+border-radius: 5px;
+}
+.ViteKart{
+    border: 8px double #6739B7;
+    color: black;
+    background-color: white;
+    padding: 4px;
+    width: 5em;
+    height: 3.3rem;
+}
+.Main-Footer{
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+.he{
+    /* text-align: center; */
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.Foot-Head{
+    color: #6739B7;
+    margin-bottom:10px;
+}
+p{
+    font-size: 14px;
+}
+.foot-icon{
+    margin-right: 17px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    flex-wrap: wrap;
+    border-top: 1px solid aliceblue;
+    height: 10px
+}
+.copyright p{
+font-size: 10px;
+
+}
