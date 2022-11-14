@@ -5,7 +5,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 function MobileMenu() {
   const navigate = useNavigate()
   const remove = () => {
-    navigate("/Home");
+    navigate("/");
   }
   return (
    <div className="Mob-Container">
@@ -15,7 +15,7 @@ function MobileMenu() {
     </div>
       <ul>
         <li>
-          <NavLink className="link" to="/Home">HOME</NavLink>
+          <NavLink className="link" to="/">HOME</NavLink>
         </li>
 
         <li>

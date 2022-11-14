@@ -83,3 +83,9 @@ font-size: 10px;
     color: aliceblue;
     font-size: 14px;
     }
+    @media only screen and (max-width: 477px){
+        .Footer{
+            position: relative;
+            top: -23px;
+        }
+    }
