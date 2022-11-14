@@ -35,6 +35,10 @@ const Footer = () => {
         <i class=" foot-icon fa-brands fa-instagram"></i>
         <i class=" foot-icon fa-brands fa-youtube"></i>
         </div>
+        <div className="contact_us">
+        <h5 className="Foot-Head">CONTACT US</h5>
+          <a className="calling" href="tel:+919370577329">+919370577329</a>
+        </div>
       </div>
       <div className="copyright">
         <p>@{new Date().getFullYear()} Vite|Kart. All Rights Reserved</p>
