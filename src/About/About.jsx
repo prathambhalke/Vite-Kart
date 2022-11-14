@@ -1,10 +1,10 @@
 import React from 'react'
 import HeroSection from '../Home/HeroSection'
-
+import "./about.css"
 function About() {
   const data = "E-Commerce"
   return (
-    <div>
+    <div className='Main-About'>
       <HeroSection data = {data} />
     </div>
   )

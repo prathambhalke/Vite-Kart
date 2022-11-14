@@ -6,6 +6,9 @@ justify-content: center;
 align-items: center;
 /* flex-direction: column; */
 }
+.Main-Error{
+    margin-bottom: 60px;
+}
 .err{
     margin-right: 24px;
     font-size: 54px;
