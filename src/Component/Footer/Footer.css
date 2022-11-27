@@ -2,7 +2,7 @@
     background-color: #13294B;
     position: relative;
     bottom: 0;
-    height: 49vh;
+    height: 50vh;
 }
 .Short-Contact{
     display: flex;
@@ -86,6 +86,7 @@ font-size: 10px;
     @media only screen and (max-width: 477px){
         .Footer{
             position: relative;
-            top: -23px;
+            top: -18x;
+    height: 42vh;
         }
     }

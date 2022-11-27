@@ -13,7 +13,7 @@ const productReducer = (state, action) => {
       };
     case "SET_API_DATA":
       const FeaturedData = action.payload.filter((currItem) => {
-        console.log(currItem)
+        // console.log(currItem)
         return currItem.featured === true;
       });
 

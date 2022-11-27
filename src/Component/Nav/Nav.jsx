@@ -18,7 +18,7 @@ function Nav() {
         </li>
 
         <li>
-          <NavLink className="link" to="/about">
+          <NavLink className="link" to="/About">
             ABOUT
           </NavLink>
         </li>
