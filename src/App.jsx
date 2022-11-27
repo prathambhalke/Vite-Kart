@@ -21,11 +21,10 @@ function App() {
           <Route path="/Products" element={<Products />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Cart" element={<Cart />} />
-          <Route path="/SingleProduct" element={<SingleProduct />} />
+          <Route path="/SingleProduct/:id" element={<SingleProduct />} />
           <Route path="/Error" element={<Error />} />
           <Route path="/MobileMenu" element={<MobileMenu />} />
           <Route path="*" element={<Error />} />
-
 </Routes>
 <Footer />
      

@@ -1,4 +1,4 @@
-import { createContext, useEffect, useReducer } from "react";
+import { createContext, useContext, useEffect, useReducer } from "react";
 import reducer from '../Reducer/productReducer'
 import axios from "axios"
 const AppContext = createContext();
@@ -9,7 +9,7 @@ const initialState = {
   isLoading: false,
   isError: false,
   Products: [],
-  featureProducts: [],
+  featuredProducts: [],
 }
 
 const AppProvider = ({ children }) => {
@@ -23,6 +23,7 @@ const AppProvider = ({ children }) => {
 
       const res = await axios.get(URL)
       const products = await res.data
+      // console.log(products)
       dispatch({ type: "SET_API_DATA", payload: products })
 
     } catch (error) {
@@ -37,4 +38,12 @@ const AppProvider = ({ children }) => {
   }, [])
   return <AppContext.Provider value={{ ...state }}>{children}</AppContext.Provider>;
 };
-export { AppProvider, AppContext };
+
+// ! custom hooks for accessing the context data directly
+
+const useProductContext = () => {
+  return useContext(AppContext)
+}
+
+
+export { AppProvider, AppContext, useProductContext };
