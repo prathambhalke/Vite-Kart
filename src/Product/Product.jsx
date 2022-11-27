@@ -17,7 +17,7 @@ const Product = (Category_Item) => {
 
         <div className="card-data">
           <h3>{name}</h3>
-          <p>{price}</p>
+          <p>₹{price}</p>
         </div>
 
       </div>
